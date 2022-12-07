@@ -1,0 +1,16 @@
+// check prime
+
+let num=23
+let count=0
+
+for(let i=1; j<=num; j++){
+if(num%i == 0){
+count++
+}
+}
+if(count == 2){
+console.log("prime number");
+}
+else{
+console.log("Not prime");
+}
