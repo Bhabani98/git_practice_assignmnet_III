@@ -1,16 +1,16 @@
 // check prime
 
-let num=23
-let count=0
+let number=23
+let factor=0
 
-for(let i=1; j<=num; j++){
-if(num%i == 0){
-count++
+for(let i=1; j<=number; j++){
+if(number%i == 0){
+factor++
 }
 }
-if(count == 2){
-console.log("prime number");
+if(factor == 2){
+console.log("Prime Number");
 }
 else{
-console.log("Not prime");
+console.log("Not a  Prime Number");
 }
